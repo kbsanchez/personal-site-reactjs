@@ -5,7 +5,7 @@ import Typed from "react-typed";
 
 export default function Home() {
     return (
-        <div className='flex flex-col justify-between min-h-[500px] pt-10 h-screen bg-red-bean bg-opacity-95'>
+        <div className='flex flex-col justify-between min-h-[700px] pt-10 h-screen bg-red-bean bg-opacity-95'>
             <header className='profile-container flex items-center text-center justify-center h-[10%] pb-[50px] min-h-fit'>
                 <div className="hero flex text-center items-center justify-center h-[10%] pb-[50px] min-h-fit mt-[500px]">
                     <div className='profile-details'>
@@ -35,7 +35,7 @@ export default function Home() {
                                     strings={[
                                         "Software Engineer",
                                         "Full Stack Developer",
-                                        "CS Student",
+                                        "CS Graduate",
                                         "Problem Solver"
                                     ]}
                                     typeSpeed={100}
