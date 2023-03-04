@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai"
+import './NavBar.css'
 
 const NavBar = () => {
     const [toggle, setToggle] = useState(false);
@@ -9,7 +10,7 @@ const NavBar = () => {
         <div>
             <header className="flex justify-between px-4 py-3 bg-red-bean text-pale-pink text-lg fixed w-full z-10">
                 <a href="/">
-                    <img className="w-9" src={require('../assets/logo.png')} alt="KS"/>
+                    <img className="w-9" src={require('../../assets/logo.png')} alt="KS"/>
                 </a>
 
                 <nav className="hidden md:block">
