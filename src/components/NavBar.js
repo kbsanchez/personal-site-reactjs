@@ -31,20 +31,20 @@ const NavBar = () => {
                 
                 {/* Mobile View */}
                 <nav
-                    className={!toggle ? "block md:hidden fixed top-16 py-2 w-full h-full bg-red-bean duration-500 left-[-100%]" 
-                    : "block md:hidden fixed top-16 py-3 w-full h-full bg-red-bean duration-500 left-0"}
+                    className={!toggle ? "block md:hidden fixed top-[60px] py-2 w-full h-full bg-red-bean duration-500 left-[-100%]" 
+                    : "block md:hidden fixed top-[60px] py-3 w-full h-full bg-red-bean duration-500 left-0"}
                 >
                     <ul className="flex flex-col">
-                        <li>
+                        <li className="py-5 text-center text-4xl mt-5">
                             <a href="/resume">Resume</a>
                         </li>
-                        <li>
+                        <li className="py-5 text-center text-4xl">
                             <a href="/projects">Projects</a>
                         </li>
-                        <li>
+                        <li className="py-5 text-center text-4xl">
                             <a href="/interests">Interests</a>
                         </li>
-                        <li>
+                        <li className="py-5 text-center text-4xl">
                             <a href="/contact">Contact</a>
                         </li>
                     </ul>

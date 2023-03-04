@@ -10,7 +10,8 @@ module.exports = {
       'pale-pink': '#F5D0C5',
       'raw-umber': '#916953',
       'caribbean-blue': '#026C7C',
-      'onyx': '#2E3532'
+      'onyx': '#2E3532',
+      'white': '#FFFFFF'
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
