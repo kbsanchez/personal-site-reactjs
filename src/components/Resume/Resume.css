@@ -1,0 +1,19 @@
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    min-height: 500px;
+    background-color: #FFFFFF;
+    border: 2px;
+}
+.resume-details {
+    font-size: 19px;
+    padding: 30px;
+}
+
+.resume-pdf {
+    min-height: 800px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
