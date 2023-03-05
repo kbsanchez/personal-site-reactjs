@@ -1,0 +1,12 @@
+.contact-info {
+    width: 350px;
+    height: 400px;
+    margin-top: 350px;
+}
+.contact-form-container {
+    width: 350px;
+    height: 400px;
+    margin-top: 375px;
+    border-radius: 5%;
+    background-color: #F5D0C5;
+}
