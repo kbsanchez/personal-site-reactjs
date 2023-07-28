@@ -4,7 +4,7 @@ import './ContactMe.css'
 
 export default function ContactMe() {
     return (
-        <div className='flex flex-col justify-between min-h-[1500px] h-screen bg-red-bean bg-opacity-95'>
+        <div className='flex flex-col justify-between h-screen bg-red-bean bg-opacity-95'>
             <header className='contactme-container flex flex-col items-center text-center justify-center h-[10%] pb-[50px] min-h-fit'>
                 <div className='contact-page-title text-pale-pink text-3xl mt-[250px] min-w-full min-h-[50px] bg-pale-pink py-2 bg-opacity-5'>
                     <span className='font-serif font-bold'>
@@ -32,22 +32,14 @@ export default function ContactMe() {
                             </h1>
 
                             <h2 className='text-pale-pink text-[20px] text-left pt-2'>
-                                Email:&emsp; sanchezkeylin@outlook.com<br/>
-                                Phone:&emsp; Request by email<br/>
+                                Email:&emsp; <a href='https://linkedin.com/in/keylin-sanchez/'>Request through LinkedIn</a><br/>
                                 City:&emsp;&emsp;Tampa, FL
                             </h2>
                         </span>
                     </div>
                     <div className='contact-message-container p-8 pt-0 justify-start'>
                         <div className='contact-form-container pt-5'>
-                            <span className='text-red-umber text-2xl font-serif font-semibold'>
-                                {" "}
-                                Leave a Message:
-
-                                <h1>
-                                    Coming soon!
-                                </h1>
-                            </span>
+                        
                         </div>
                         
                     </div>

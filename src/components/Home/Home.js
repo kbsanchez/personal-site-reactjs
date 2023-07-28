@@ -34,7 +34,7 @@ export default function Home() {
                                     <Typed
                                     strings={[
                                         "Software Engineer",
-                                        "Full Stack Developer",
+                                        "Developer",
                                         "CS Graduate",
                                         "Problem Solver"
                                     ]}
@@ -44,7 +44,7 @@ export default function Home() {
                                     />
                                 </h1>
                                 <span className="profile-role-tagline text-pale-pink text-xl mt-[5px]">
-                                    Seeking a Software Engineering role at a great company.
+                                    I simplify your life through technology.
                                 </span>
                             </span>
                         </div>
@@ -55,7 +55,7 @@ export default function Home() {
                                     Contact Me
                                 </button>
                             </a>
-                            <a href='KeylinSanchez-2023Resume.pdf' download='KeylinSanchez-Resume.pdf'>
+                            <a href='/resume'>
                                 <button className='btn highlighted-btn ml-[28px]'>Get Resume</button>
                             </a>
                         </div>

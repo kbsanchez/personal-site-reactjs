@@ -17,3 +17,15 @@
     padding-left: 5%;
     padding-right: 5%;
 }
+
+.container {
+    max-width: 1024px;
+}
+
+.ResumeTab {
+    border-bottom: 4px solid transparent;
+}
+
+.ResumeTab.active {
+    border-bottom-color: #6366f1;
+}
