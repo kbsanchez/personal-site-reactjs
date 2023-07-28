@@ -9,7 +9,7 @@ import Interests from './components/Interests'
 
 export default function App() {
   return (
-      <div>
+      <div style={{overflow: 'hidden'}}>
         <NavBar/>
 
         <Routes>
