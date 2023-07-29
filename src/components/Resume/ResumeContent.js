@@ -41,8 +41,8 @@ const ResumeContent = () => {
   ];
 
   return (
-    <div className="container mx-auto px-4 py-8 flex">
-      <div className="w-1/4 flex items-center text-center">
+    <div className="container mx-auto px-4 py-8 flex flex-col md:flex-row">
+      <div className="w-full md:w-1/4 flex items-center text-center mb-4 md:mb-0">
         <div className="flex flex-col border-r-2 pr-2">
           <ResumeTab title="Education" ico='TbSchool'onClick={() => handleTabChange(0)} active={activeTab === 0} />
           <ResumeTab title="Experience" ico='TbBriefcase' onClick={() => handleTabChange(1)} active={activeTab === 1} />
@@ -50,7 +50,7 @@ const ResumeContent = () => {
           <ResumeTab title="Involvement" ico='TbUsers' onClick={() => handleTabChange(3)} active={activeTab === 3} />
         </div>
       </div>
-      <div className="w-3/4 pl-8 overflow-y-auto">
+      <div className="w-full md:w-3/4 pl-0 md:pl-8 overflow-y-auto">
         {activeTab === 0 && (
           <ResumeSection title="Education">
             <p className='font-bold'>University of South Florida &emsp;|&emsp; Class of 2022</p>
