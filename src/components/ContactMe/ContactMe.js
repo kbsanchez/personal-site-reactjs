@@ -32,7 +32,7 @@ export default function ContactMe() {
                             </h1>
 
                             <h2 className='text-pale-pink text-[20px] text-left pt-2'>
-                                Email:&emsp; <a href='https://linkedin.com/in/keylin-sanchez/'>Request through LinkedIn</a><br/>
+                                Email:&emsp; <a href='https://linkedin.com/in/keylin-sanchez/'>Request through <strong>LinkedIn</strong></a><br/>
                                 City:&emsp;&emsp;Tampa, FL
                             </h2>
                         </span>
