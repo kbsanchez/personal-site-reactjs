@@ -113,7 +113,7 @@ const ResumeTab = ({ title, ico, onClick, active }) => {
       onClick={onClick}
     >
       <DynamicIcon name={ico} />
-      <p className={`text-lg font-semibold pl-2 ${active ? "text-indigo-600" : ""}`}>{title}</p>
+      <p className={`text-lg font-semibold pl-2 ${active ? "text-black-600" : ""}`}>{title}</p>
     </div>
   );
 };
