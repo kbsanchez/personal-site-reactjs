@@ -5,7 +5,7 @@ import Home from './components/Home/Home'
 import ContactMe from './components/ContactMe/ContactMe'
 import Projects from './components/Projects/Projects'
 import Resume from './components/Resume/Resume'
-import Interests from './components/Interests'
+import Interests from './components/Interests/Interests'
 
 export default function App() {
   return (
