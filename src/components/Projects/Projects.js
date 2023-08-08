@@ -3,8 +3,8 @@ import { ProjectData } from './ProjectData'
 
 export default function Projects() {
     return (
-        <div className='flex flex-col justify-between items-center min-h-[500px] pt-10 h-screen bg-red-bean bg-opacity-95'>
-            <div className='projects-container mt-10 mx-8'>
+        <div className='flex flex-col justify-between items-center min-h-[500px] pt-10 h-screen bg-red-bean bg-opacity-95 overflow-y-scroll'>
+            <div className='projects-container mt-10 mx-8 mb-6'>
                 <div className="grid gap-2 lg:grid-cols-4 md:grid-cols-2">
                     {ProjectData.map((items, key) => (
                         <div className="w-full rounded-lg shadow-md lg:max-w-sm bg-white" key={key}>

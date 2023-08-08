@@ -41,7 +41,7 @@ const ResumeContent = () => {
   ];
 
   return (
-    <div className="container mx-auto px-4 py-8 flex flex-col md:flex-row">
+    <div className="container mx-auto px-4 py-8 flex flex-col md:flex-row bg-white">
       <div className="w-full md:w-1/4 flex items-center text-center mb-4 md:mb-0">
         <div className="flex flex-col border-r-2 pr-2">
           <ResumeTab title="Education" ico='TbSchool'onClick={() => handleTabChange(0)} active={activeTab === 0} />
@@ -113,7 +113,7 @@ const ResumeTab = ({ title, ico, onClick, active }) => {
       onClick={onClick}
     >
       <DynamicIcon name={ico} />
-      <p className={`text-lg font-semibold pl-2 ${active ? "text-indigo-600" : ""}`}>{title}</p>
+      <p className={`text-lg font-semibold pl-2 ${active ? "text-black-600" : ""}`}>{title}</p>
     </div>
   );
 };
