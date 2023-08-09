@@ -21,12 +21,12 @@ export default function Projects() {
                                 </p>
                                 <div className='my-4 flex flex-nowrap justify-center'>
                                     <a href={items.repo}>
-                                        <button className="px-8 py-2 mr-2 text-sm text-white bg-onyx bg-opacity-70 rounded shadow">
+                                        <button className="px-8 py-2 mr-2 text-sm text-white bg-onyx bg-opacity-70 hover:bg-opacity-100 rounded shadow">
                                             Repo
                                         </button>
                                     </a>
                                     <a href={items.demo}>
-                                        <button className="px-8 py-2 ml-2 text-sm text-white bg-red-bean bg-opacity-70 rounded shadow">
+                                        <button className="px-8 py-2 ml-2 text-sm text-white bg-red-bean bg-opacity-70 hover:bg-opacity-100 rounded shadow">
                                             Demo
                                         </button>
                                     </a>
