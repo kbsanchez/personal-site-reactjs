@@ -9,7 +9,7 @@
 
 ## Overview
 
-![Screenshot of keylinsanchez.com](/assets/WebpageScreenshot.png)
+![Screenshot of keylinsanchez.com](/src/assets/WebpageScreenshot.png)
 
 #### Overall Experience
 
