@@ -1,4 +1,4 @@
-# Portfolio Website || Keylin Sanchez
+# Portfolio Website || [KeylinSanchez.com](https://www.keylinsanchez.com/)
 
 ## Table of Contents
 
@@ -11,28 +11,23 @@
 
 ![Screenshot of keylinsanchez.com](/src/assets/WebpageScreenshot.png)
 
-#### Overall Experience
-
-#### Things I learned
-
-
 ### Built With
 
 - **ReactJS**
 - **TailwindCSS**
-
+- Hosted on **AWS Amplify**
 - react-router-dom
 - react-icons
 - react-typed
 
 ## Features
 
-1. Hero page
-2. Interactive resume page
-3. Project cards page
-4. Interests carousel page
-5. Contact information page
+#### 🌋 Hero page
+#### 🌋 Interactive resume
+#### 🌋 Project cards
+#### 🌋 Interests carousel
+#### 🌋 Contact information page
 
 ## Contact
-
-[LinkedIn](https://www.linkedin.com/in/keylin-sanchez/)
+I'm eager to connect with like-minded professionals, learn from experienced mentors, and contribute my skills to meaningful projects. If you're looking for a dedicated and driven team player, I'd love to explore potential collaborations or opportunities. Connect with me on
+[LinkedIn](https://www.linkedin.com/in/keylin-sanchez/) 🧿
