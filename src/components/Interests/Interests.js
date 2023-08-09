@@ -1,4 +1,9 @@
 import React, { useState } from 'react'
+import Guitar from '../../assets/Interests/Guitar.png'
+import Gardening from '../../assets/Interests/Gardening.png'
+import Hiking from '../../assets/Interests/Hiking.png'
+import Sushi from '../../assets/Interests/Sushi.png'
+
 
 export default function Interests() {
     const [index, setIndex] = useState(0); 
@@ -6,23 +11,23 @@ export default function Interests() {
 
     const InterestsData = [
         {
-            title: "Music",
-            image: "",
-            desc: "Whether strumming the guitar or losing myself in playlists, music resonates with my spirit.",
-        },
-        {
             title: "The Outdoors",
-            image: "",
+            image: Hiking,
             desc: "Venturing into the great outdoors is my way of finding balance. Whether it's hiking, hammocking, or simply relishing in the beauty of a sunset, nature is where I rejuvenate my spirit.",
         },
         {
+            title: "Music",
+            image: Guitar,
+            desc: "Each culture's music tells a unique story. I immerse myself in the rhythms of different traditions, appreciating the rich narratives that instruments and voices weave.",
+        },
+        {
             title: "Sushi",
-            image: "",
+            image: Sushi,
             desc: "Sushi isn't just a dish; it's a shared experience. From sushi nights with friends to visiting local Japanese restaurants, I find joy in connecting with fellow sushi enthusiasts and discovering new hidden gems.",
         },
         {
             title: "Gardening",
-            image: "",
+            image: Gardening,
             desc: "Gardening is my meditation, nurturing life from tiny seeds into blooming wonders, mirroring the patience and care I bring to code.",
         },
       ];
@@ -47,10 +52,10 @@ export default function Interests() {
                 Welcome to the vibrant mosaic of my interests<br/>that exist beyond the realm of programming.
                 </span>
                 <div className="carousel w-96 sm:w-[36rem] md:w-[42rem] lg:w-[56rem] mt-6 mx-8 bg-pale-pink">
-                    <div className='flex justify-center mx-4 relative gap-1 overflow-hidden scroll-smooth'>
+                    <div className='flex justify-center mx-4 relative gap-1 overflow-hidden scroll-smooth mb-6'>
                         <div className='relative'>
-                            <div className='image-container border-4 border-raw-umber w-[22rem] sm:w-[34rem] md:w-[40rem] lg:w-[54rem] h-80 mt-2'>
-                                <img src={InterestsData[index].image} alt={InterestsData[index].title} className=' bg-cover mx-auto my-auto'/>
+                            <div className='image-container border-4 border-raw-umber w-[22rem] sm:w-[34rem] md:w-[40rem] lg:w-[54rem] h-[363px] mt-2'>
+                                <img src={InterestsData[index].image} alt={InterestsData[index].title} className=' max-w-full mx-auto h-[355px]'/>
                             </div>
 
                             <h1 className='text-lg font-bold text-center mt-6'>
