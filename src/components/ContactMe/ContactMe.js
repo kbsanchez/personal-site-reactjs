@@ -39,7 +39,7 @@ export default function ContactMe() {
                             </h1>
 
                             <h2 className='text-pale-pink text-[20px] text-left pt-2'>
-                                Email:&emsp; <a href='https://linkedin.com/in/keylin-sanchez/'>Request through <strong className='hover:text-white'>LinkedIn</strong></a><br/>
+                                Email:&emsp; <a href='https://linkedin.com/in/keylin-sanchez/' target='_blank' rel='noreferrer noopener'>Request through <strong className='hover:text-white'>LinkedIn</strong></a><br/>
                                 City:&emsp;&emsp;Relocating to Atlanta, GA
                             </h2>
                         </span>
