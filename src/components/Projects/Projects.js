@@ -20,12 +20,12 @@ export default function Projects() {
                                 {items.desc}
                                 </p>
                                 <div className='my-4 flex flex-nowrap justify-center'>
-                                    <a href={items.repo}>
+                                    <a href={items.repo} target='_blank' rel='noreferrer noopener'>
                                         <button className="px-8 py-2 mr-2 text-sm text-white bg-onyx bg-opacity-70 hover:bg-opacity-100 rounded shadow">
                                             Repo
                                         </button>
                                     </a>
-                                    <a href={items.demo}>
+                                    <a href={items.demo} target='_blank' rel='noreferrer noopener'>
                                         <button className="px-8 py-2 ml-2 text-sm text-white bg-red-bean bg-opacity-70 hover:bg-opacity-100 rounded shadow">
                                             Demo
                                         </button>

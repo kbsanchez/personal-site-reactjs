@@ -12,7 +12,7 @@ const ResumeContent = () => {
   const projects = [
     <div className='mt-5'>
       <p className='font-semibold'>Memory Virtualization Project</p>
-      <p className=''>Operating Systems | <a className='font-semibold' href='https://github.com/kbsanchez/COP4600-MemVirtualization'>Link</a></p>
+      <p className=''>Operating Systems | <a className='font-semibold' href='https://github.com/kbsanchez/COP4600-MemVirtualization' target='_blank' rel='noreferrer noopener'>Link</a></p>
         <ul>
           <li>- Developed a C++ virtual memory system simulator to evaluate FIFO, LRU, and Segmented FIFO page replacement algorithms.</li>
           <li>- Implemented configurable command-line options for policy selection, memory frame allocation, and verbosity mode (quiet/debug).</li>
@@ -21,7 +21,7 @@ const ResumeContent = () => {
     </div>,
     <div className='mt-5'>
       <p className='font-semibold'>ElasticSearch Management Utility</p>
-      <p className=''>Capstone Project | <a className='font-semibold' href='https://github.com/kbsanchez/Team-SunView'>Link</a></p>
+      <p className=''>Capstone Project | <a className='font-semibold' href='https://github.com/kbsanchez/Team-SunView' target='_blank' rel='noreferrer noopener'>Link</a></p>
         <ul>
           <li>- Spearheaded the front-end development of an automated index management utility for Elasticsearch, streamlining client operations.</li>
           <li>- Implemented Agile-based methodologies in collaboration with the SunView sponsor, ensuring seamless project progress.</li>
@@ -30,7 +30,7 @@ const ResumeContent = () => {
     </div>,
     <div className='mt-5'>
       <p className='font-semibold'>InCollege Python Command Line Utility</p>
-      <p className=''>USF Term-Long Project | <a className='font-semibold' href='https://google.com'>Link</a></p>
+      <p className=''>USF Term-Long Project | <a className='font-semibold' href='https://google.com' target='_blank' rel='noreferrer noopener'>Link</a></p>
         <ul>
           <li>- Collaborated in a six-person team to develop a utility to empower college students in creating accounts, job searching, and networking, akin to LinkedIn.</li>
           <li>- Orchestrated a minimum viable product (MVP) approach to attract potential investors and secure funding for future software iterations.</li>

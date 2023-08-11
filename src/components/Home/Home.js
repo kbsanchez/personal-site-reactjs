@@ -11,10 +11,10 @@ export default function Home() {
                     <div className='profile-details'>
                         <div className="colz p-[8px]">
                             <div className='colz-icon inline-flex'>
-                                <a href='https://www.linkedin.com/in/keylin-sanchez/' className='pr-[2px]'>
+                                <a href='https://www.linkedin.com/in/keylin-sanchez/' target='_blank' rel='noreferrer noopener' className='pr-[2px]'>
                                     <FaLinkedin className="text-pale-pink hover:scale-125 transition duration-500"/>
                                 </a>
-                                <a href='https://github.com/kbsanchez' className='pl-[2px]'>
+                                <a href='https://github.com/kbsanchez' target='_blank' rel='noreferrer noopener' className='pl-[2px]'>
                                     <FaGithubSquare className="text-pale-pink hover:scale-125 transition duration-500"/>
                                 </a>
                             </div>
@@ -50,12 +50,12 @@ export default function Home() {
                         </div>
 
                         <div className='profile-options my-2'>
-                            <a href='/contact'>
+                            <a href='/contact' target='_blank' rel='noreferrer noopener'>
                                 <button className='btn primary-btn'>
                                     Contact Me
                                 </button>
                             </a>
-                            <a href='/resume'>
+                            <a href='/resume' target='_blank' rel='noreferrer noopener'>
                                 <button className='btn highlighted-btn ml-[28px]'>Get Resume</button>
                             </a>
                         </div>
